@@ -1,16 +1,16 @@
-{
-  "name": "capture-endpoint-marketplace",
-  "owner": {
-    "name": "I775890"
-  },
-  "plugins": [
-    {
-      "name": "capture-endpoint",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/JuguntaPrakash/prakash-new-plugin.git"
-      },
-      "description": "Captures every test scenario for an SPM API endpoint and produces a structured JSON knowledge base. Bundles capture-endpoint and metadata-context skills."
-    }
-  ]
-}
+  {
+    "name": "capture-endpoint-marketplace",
+    "owner": {
+      "name": "JuguntaPrakash"
+    },
+    "plugins": [
+      {
+        "name": "capture-endpoint",
+        "source": {
+          "source": "url",
+          "url": "https://github.com/JuguntaPrakash/prakash-new-plugin.git"
+        },
+        "description": "Captures every test scenario for an SPM API endpoint and produces a structured JSON knowledge base."
+      }
+    ]
+  }

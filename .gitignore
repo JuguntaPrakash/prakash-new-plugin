@@ -1,0 +1,42 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node (in case anyone adds tooling later)
+node_modules/
+
+# Captured output from runs of the skill — never commit these
+*-response.json
+*-Scenarios.txt
+captures/
+output/
+
+# Credentials / secrets — must never be committed
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+auth.json
+token.txt
+
+# Playwright artifacts
+.playwright-mcp/
+playwright-report/
+test-results/

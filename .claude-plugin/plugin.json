@@ -1,0 +1,16 @@
+{
+  "name": "capture-endpoint",
+  "version": "0.1.0",
+  "description": "Captures every test scenario for an SPM API endpoint by reading the source, hitting the endpoint, and producing a structured JSON knowledge base. Built for the SAP Signavio dictionary knowledge base.",
+  "author": {
+    "name": "I775890"
+  },
+  "keywords": [
+    "sap",
+    "signavio",
+    "spm",
+    "api",
+    "testing",
+    "knowledge-base"
+  ]
+}
